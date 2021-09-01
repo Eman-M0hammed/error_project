@@ -26,6 +26,112 @@
 /**************************************************************/
 
 /* mohamed */
+#blog{
+    padding-top: 100px !important
+}
+#blog h2{
+    line-height: 1.2;
+    font-size: 44px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+@media (max-width: 767px){
+    #blog h2{
+        font-size: 28px;
+    }
+}
+#blog .container .row{
+    margin-top: 50px;
+}
+#blog .container .card{
+    border: none;
+    margin-bottom: 50px;
+}
+#blog .container .card img{
+    border-radius: 0;
+}
+#blog .container .card a{
+    text-decoration: none;
+}
+#blog .card-body .link{
+    margin: 10px auto
+}
+#blog .card-body .link a{
+    color: #fe5f55;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 600ms all;
+}
+#blog .card-body .link a:hover{
+    color: #000;
+}
+#blog .card-body h4{
+    padding: 10px 0;
+}
+#blog .card-body h4 a{
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 1.5;
+    font-weight: 400;
+    transition: 600ms all;
+}
+#blog .card-body h4 a:hover{
+    color: #0d6efd;
+}
+
+#blog #patient{
+    background-image: url(xbg_3.jpg);
+    height: 100vh;
+}
+#blog #patient .opacity{
+    background-color: #0d6efd;
+    opacity: .7;
+    padding-top: 50px;
+    height: 100%;
+}
+#blog #patient h6,#blog #patient h2{
+    padding: 10px;
+    color: #fff;
+}
+#blog #patient .row{
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+#blog #patient .card{
+    background: none;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+}
+
+#blog #patient .card-body{
+    opacity: .7;
+}
+#blog #patient .card .qute img{
+    width: 130px;
+    height: 130px;
+}
+#blog #patient .card .qute span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 35%;
+    bottom: 60%;
+    background-color: #fe5f55;
+    display: block;
+    text-align: center;
+}
+#blog #patient .card .card-body h6{
+    font-weight: 600;
+}
+#blog #patient .card .card-body span{
+    font-weight: 500;
+}
 
 /**************************************************************/
 

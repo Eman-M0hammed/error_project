@@ -13,6 +13,289 @@
 
 /*  eman  */
 
+/* start section 1 css  */
+#section_1{
+    background-image: url('xbg_3.jpg.pagespeed.ic.Wx917eesOz.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* start main section css  */
+main{
+    background-color: #207dff;
+    color: white;
+    padding: 5px 0;
+}
+
+main a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 15px 0 5px;
+}
+
+main a:first-child{
+    border-right: 1px solid gainsboro;
+}
+/* end main section css  */
+
+/* start navbar section css  */
+nav{
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px 0;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 24px;
+    color:black;
+    display: block;
+    text-decoration: none;
+}
+
+/* start menu icon */
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* end menu icon */
+
+.nav-item{
+    margin: 12px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black;
+    border-bottom: 2px solid #207dff;
+}
+
+nav .btn{
+    background: #fe5f55;
+    color: white;
+    padding: 0.7rem 18px;
+    font-size: 12px;
+    text-align: left;
+}
+nav .btn:hover, .appointment:hover{
+    background-color: #207dff;
+    color:white;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+/* end navbar css */
+
+/* start header css */
+header .container{
+    padding-bottom:80px
+}
+
+header .welcome{
+    color: #207dff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+   
+}
+
+header p{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+header h1{
+    font-size: 64px;
+    color: black;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.appointment, .contact{
+    background-color: #207dff;
+    color:white;
+    border-radius: 25px;
+    padding: 0.7rem 18px;
+}
+/* end header css */
+
+/* end section 1 css */
+
+/* start section 2 (about section) css */
+.about-img{
+    background-image:url('xabout.jpg.pagespeed.ic.YdESjG30xH.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    /* width: 400px; */
+    height: 600px; 
+}
+.about-content .content{
+    padding: 120px 60px 120px 110px;
+    
+}
+
+.about-content h1{
+    line-height: 1.2;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about-content h1 span{
+    color: #207dff;
+}
+
+.about-content p{
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+.about-content .contact, .services-contact .appointment{
+    background-color:#fe5f55;
+    text-align: center;
+
+}
+.about-content .contact:hover,
+.services-contact .appointment:hover{
+    border: 1px solid #fe5f55;
+    background-color:white;
+    color:#fe5f55;
+}
+/* end about centent css */
+
+/* start our services css */
+.our-services{
+    background-color: #f8f9fa;
+}
+
+/* start our services content css */
+.our-services h1{
+    line-height: 1.2;
+    font-size: 44px;
+    font-weight: 700;
+    margin: 3rem 0;
+}
+
+.our-services h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.our-services p{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+/* end our services content */
+
+/* start our services contact css */
+.our-services .services-contact{
+    background-color: white;
+    padding:0 55px 55px;
+
+}
+.services-contact h2{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #207dff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding-top:3rem;
+}
+
+.our-services .services-contact input, 
+.our-services .services-contact textarea,
+.our-services .services-contact select{
+    border-radius: 25px;
+    margin-bottom: 20px;
+    color: #999999;;
+}
+/* end our services contact css */
+
+
+/* start about intro img section */
+#about .intro-img{
+    background-image: url('xbg_2.jpg.pagespeed.ic.pQrXJywxF9.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    position: relative;
+    padding: 8.5em 0;
+    color: rgba(255, 255, 255, 0.815);
+
+}
+
+#about .intro-img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .2;
+    background: black;
+}
+
+#about .intro-img .container{
+    position: relative;
+}
+
+#about .intro-img h1{
+    font-size: 50px;
+    font-weight: 800;
+    color:white;
+    line-height: 1.5;
+}
+
+#about .intro-img p{
+    font-size: 20px;
+}
+#about .intro-img a{
+    background: white;
+    border-radius: 25px;
+}
+/* end about intro img css */
+
+/* end section 2 about section css */
+
+@media (max-width: 1200px){
+    .about-content .content {
+        padding-right: 0;
+        padding-left: 60px;
+    }
+    .about-content h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 991px){
+    main{
+        display: none;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+  
+
+}
+
 /**************************************************************/
 
 
